@@ -26,3 +26,5 @@ Thumbs.db
 # Local git
 *.orig
 *.rej
+
+.fuse_hidden*
