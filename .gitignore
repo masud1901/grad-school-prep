@@ -28,3 +28,5 @@ Thumbs.db
 *.rej
 
 .fuse_hidden*
+
+.claude-code/* 
