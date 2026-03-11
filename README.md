@@ -13,7 +13,7 @@ Personal study materials and course prep: Computer Networks, Math for ML/DS, and
 ## ✅ Completed
 
 - **Math for ML & DS specialization** — Linear transformations, Calculus, Probability & Statistics
-- **FL papers** — Mehdi's IoTJ FL survey read
+- **FL papers** — Mehdi's IoTJ FL survey read; **Layer Normalization in Label-Skewed FL** (Zhang et al., TMLR 2024) — full read with detailed notes in `notes/02_Layer_Normalization_Label_Shift_FL.md`
 
 ## 🎯 March 2026 Goals (updated)
 
@@ -29,6 +29,7 @@ Personal study materials and course prep: Computer Networks, Math for ML/DS, and
 
 ### FL Papers (research reading)
 - [x] Skim Mahdi's IoTJ FL survey (`mehdi papers/01_...`)
+- [x] **Layer Normalization in Label-Skewed FL** (Zhang et al.) — full read; notes in `notes/02_Layer_Normalization_Label_Shift_FL.md` (theory, experiments, takeaways, writing/storytelling)
 - [ ] Skim FLAC paper — note where convergence proofs appear
 - [ ] Identify which math tools show up most across FL literature
 
