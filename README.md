@@ -6,6 +6,8 @@ Personal study materials and course prep: Computer Networks, Math for ML/DS, and
 
 | Folder | Description |
 |--------|-------------|
+| **mehdi papers** | Mehdi Beitollahi's FL papers (Lu-lab + later): IoTJ survey, Layer Norm, FedPFT, NoT, LoRA, etc. See `notes/Lu_and_Beitollahi_Reading_List.md`. |
+| **steiger papers** | Juaren Steiger's bandit/scheduling papers with Ning Lu: POSS, Backlogged Bandits, Delayed Semi-Bandit (INFOCOM). See folder `README.md`. |
 | **Computer Networks** | CS-style fundamentals: Tanenbaum textbook, lectures, and notes (protocols, TCP/IP, wireless). See `Computer Networks/Fundamentals/CLAUDE.md` for the study guide. |
 | **math for ML and DS** | [DeepLearning.AI Mathematics for Machine Learning and Data Science](https://www.coursera.org/specializations/mathematics-for-machine-learning-and-data-science) specialization: assignments (Jupyter), solutions, and graded quiz answers. **Completed.** Covers: Linear transformations (C1), Calculus (C2), Stat and Probability (C3). |
 | **Convex Optimization** | [Stanford Online: Convex Optimization](https://learning.edx.org/course/course-v1:StanfordOnline+SOE-YCVX0001+1T2020/home) (edX, SOE-YCVX0001): course materials and Boyd book PDF. |
@@ -28,10 +30,17 @@ Personal study materials and course prep: Computer Networks, Math for ML/DS, and
 - [ ] Goal is intuition, not speed — don't force it
 
 ### FL Papers (research reading)
+
+**Principle: Finish the Mehdi + Ning Lu FL core before moving to Steiger (bandits), RL specialization, or networks.** Your proposal is FL-first (scheduling + FLAC); knowing FLAC/DSFL and non-IID theory makes the rest click.
+
 - [x] Skim Mahdi's IoTJ FL survey (`mehdi papers/01_...`)
 - [x] **Layer Normalization in Label-Skewed FL** (Zhang et al.) — full read; notes in `notes/02_Layer_Normalization_Label_Shift_FL.md` (theory, experiments, takeaways, writing/storytelling)
-- [ ] Skim FLAC paper — note where convergence proofs appear
+- [ ] **FLAC** (Beitollahi, Lu) — note where convergence proofs appear. *Short conference paper (GLOBECOM).*
+- [ ] **DSFL** (Beitollahi, Liu, Lu). *Short conference paper (ICCSPA).*
+- [ ] FedAvg / FedProx / SCAFFOLD (see `notes/FL_Must_Read_Mehdi_Level.md`)
 - [ ] Identify which math tools show up most across FL literature
+
+*Then:* Steiger papers (POSS, Backlogged Bandits), RL Course 1+, networks.
 
 ### Markov Chains Crash Course (1 week)
 - [ ] Watch MIT OCW / YouTube lectures on discrete Markov chains
@@ -52,9 +61,9 @@ Personal study materials and course prep: Computer Networks, Math for ML/DS, and
 
 ## What to do next
 
-1. **RL Specialization, Course 1** — Best follow-up: your math base (linear algebra, calculus, probability, stats) is ready for [Fundamentals of Reinforcement Learning](https://www.coursera.org/learn/fundamental-reinforcement-learning). Do the short **Markov chains** crash course first if MDPs feel new.
-2. **Convex Optimization** — Continue the slow burn (Ch 1–2) when you want theory that ties into FL and control.
-3. **FL papers** — Use the FL reading list when you’re ready to connect theory to federated learning and convergence proofs.
+1. **FL papers (Mehdi + Ning Lu) first** — Complete FLAC, DSFL, and the non-IID core (FedAvg, FedProx, SCAFFOLD) from `notes/FL_Must_Read_Mehdi_Level.md` before diving into Steiger (bandits) or RL. Your proposal is FL-first; this order pays off.
+2. **RL Specialization, Course 1** — After the FL core: your math base is ready for [Fundamentals of Reinforcement Learning](https://www.coursera.org/learn/fundamental-reinforcement-learning). Do the short **Markov chains** crash course first if MDPs feel new.
+3. **Convex Optimization** — Continue the slow burn (Ch 1–2) when you want theory that ties into FL and control.
 
 ---
 
