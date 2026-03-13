@@ -15,7 +15,7 @@ Personal study materials and course prep: Computer Networks, Math for ML/DS, and
 ## ✅ Completed
 
 - **Math for ML & DS specialization** — Linear transformations, Calculus, Probability & Statistics
-- **FL papers** — Mehdi's IoTJ FL survey read; **Layer Normalization in Label-Skewed FL** (Zhang et al., TMLR 2024) — full read with detailed notes in `notes/02_Layer_Normalization_Label_Shift_FL.md`
+- **FL papers** — Mehdi's IoTJ FL survey read; **Layer Normalization in Label-Skewed FL** (Zhang et al., TMLR 2024) — full read with detailed notes in `notes/02_Layer_Normalization_Label_Shift_FL.md`; **DSFL** (Beitollahi, Liu, Lu, ICCSPA 2022) — read (two-level sparsification, LSS, top-K, error accumulation; basis for ADAFL proposal)
 
 ## 🎯 March 2026 Goals (updated)
 
@@ -36,7 +36,7 @@ Personal study materials and course prep: Computer Networks, Math for ML/DS, and
 - [x] Skim Mahdi's IoTJ FL survey (`mehdi papers/01_...`)
 - [x] **Layer Normalization in Label-Skewed FL** (Zhang et al.) — full read; notes in `notes/02_Layer_Normalization_Label_Shift_FL.md` (theory, experiments, takeaways, writing/storytelling)
 - [ ] **FLAC** (Beitollahi, Lu) — note where convergence proofs appear. *Short conference paper (GLOBECOM).*
-- [ ] **DSFL** (Beitollahi, Liu, Lu). *Short conference paper (ICCSPA).*
+- [x] **DSFL** (Beitollahi, Liu, Lu, ICCSPA 2022) — read. Two-level sparsification (LSS + top-K), error accumulation; static K from truncated normal → ADAFL extends with loss-feedback adaptive K.
 - [ ] FedAvg / FedProx / SCAFFOLD (see `notes/FL_Must_Read_Mehdi_Level.md`)
 - [ ] Identify which math tools show up most across FL literature
 
@@ -68,3 +68,10 @@ Personal study materials and course prep: Computer Networks, Math for ML/DS, and
 ---
 
 *Private study repo — course materials and personal notes.*
+
+
+May 21, 2026    →  RTSS 2026 (A*, stretch — needs RT framing)
+Jun 5, 2026     →  CoNEXT 2026 (A, networking backup)
+Jul 24, 2026    →  INFOCOM 2027 (A*, PRIMARY TARGET)
+Aug 1, 2026     →  AAAI 2027 (A*, strong AI backup, Montreal!)
+Rolling         →  IEEE TNNLS / ToN journal track
