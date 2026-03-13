@@ -15,7 +15,7 @@ Personal study materials and course prep: Computer Networks, Math for ML/DS, and
 ## ✅ Completed
 
 - **Math for ML & DS specialization** — Linear transformations, Calculus, Probability & Statistics
-- **FL papers** — Mehdi's IoTJ FL survey read; **Layer Normalization in Label-Skewed FL** (Zhang et al., TMLR 2024) — full read with detailed notes in `notes/02_Layer_Normalization_Label_Shift_FL.md`; **DSFL** (Beitollahi, Liu, Lu, ICCSPA 2022) — read (two-level sparsification, LSS, top-K, error accumulation; basis for ADAFL proposal)
+- **FL papers** — Mehdi's IoTJ FL survey read; **Layer Normalization in Label-Skewed FL** (Zhang et al., TMLR 2024) — full read with detailed notes in `notes/02_Layer_Normalization_Label_Shift_FL.md`; **DSFL** (Beitollahi, Liu, Lu, ICCSPA 2022) — read (two-level sparsification, LSS, top-K, error accumulation; basis for ADAFL proposal); **FLAC** (Beitollahi, Lu, GLOBECOM 2022) — read, notes in `notes/FLAC_Paper_Notes_Masud.md`
 
 ## 🎯 March 2026 Goals (updated)
 
@@ -35,7 +35,7 @@ Personal study materials and course prep: Computer Networks, Math for ML/DS, and
 
 - [x] Skim Mahdi's IoTJ FL survey (`mehdi papers/01_...`)
 - [x] **Layer Normalization in Label-Skewed FL** (Zhang et al.) — full read; notes in `notes/02_Layer_Normalization_Label_Shift_FL.md` (theory, experiments, takeaways, writing/storytelling)
-- [ ] **FLAC** (Beitollahi, Lu) — note where convergence proofs appear. *Short conference paper (GLOBECOM).*
+- [x] **FLAC** (Beitollahi, Lu) — read; convergence and algorithm notes in `notes/FLAC_Paper_Notes_Masud.md`. *Short conference paper (GLOBECOM).*
 - [x] **DSFL** (Beitollahi, Liu, Lu, ICCSPA 2022) — read. Two-level sparsification (LSS + top-K), error accumulation; static K from truncated normal → ADAFL extends with loss-feedback adaptive K.
 - [ ] FedAvg / FedProx / SCAFFOLD (see `notes/FL_Must_Read_Mehdi_Level.md`)
 - [ ] Identify which math tools show up most across FL literature
