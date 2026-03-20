@@ -30,3 +30,8 @@ Thumbs.db
 .fuse_hidden*
 
 .claude-code/* 
+
+
+
+# Ignore Smart Environment folder
+.smart-env

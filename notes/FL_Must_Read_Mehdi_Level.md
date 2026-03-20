@@ -85,7 +85,7 @@ These are the **minimum** to claim deep FL. Order = reading order.
 After Tier 1 you will have: **foundations (FedAvg, FedProx, SCAFFOLD), Lu-lab communication efficiency (FLAC, DSFL), and Mehdi’s theory + modern FL (Layer Norm, FedPFT).** That’s the no-excuse core for being the “FL guy” in Lu’s lab with strong secondary RL and networks.
 
 
-### Non-IID focus — checklist
+### Non-IID focus — checklist the chck list
 
 - [ ] FedAvg
 - [ ] FedProx

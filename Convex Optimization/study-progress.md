@@ -8,10 +8,10 @@
 
 ## Progress log
 
-| Date       | Pages / section        | Notes |
-|------------|------------------------|--------|
-| Feb 2025   | ~1–5 (Ch 1 intro)      | Intro, optimization problem (1.1), linear vs nonlinear programs, data fitting, least-squares, solving least-squares (normal equations). |
-| Feb 2025   | Ch 1 (full)           | **Chapter 1 done.** Problem formulation, linear/nonlinear programs, LP (1.5), least-squares, mature technology. |
+| Date     | Pages / section   | Notes                                                                                                                                   |
+| -------- | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| Feb 2025 | ~1–5 (Ch 1 intro) | Intro, optimization problem (1.1), linear vs nonlinear programs, data fitting, least-squares, solving least-squares (normal equations). |
+| Feb 2025 | Ch 1 (full)       | **Chapter 1 done.** Problem formulation, linear/nonlinear programs, LP (1.5), least-squares, mature technology.                         |
 
 ---
 
